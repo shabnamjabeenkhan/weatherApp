@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import './App.css'
-import sunsetImage from './assets/sunset.png.jpg'
+import sunsetImage from './assets/sunset.jpeg'
+
 
 function App() {
   const [data, setData] = useState({})
