@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import './App.css'
+import sunsetImage from './assets/sunset.png.jpg'
 
 function App() {
   const [data, setData] = useState({})
@@ -19,7 +20,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div className="app" style={{backgroundImage: `url(${sunsetImage})`}}>
       <div className="search">
         <input
           value={location}
